@@ -1,0 +1,20 @@
+// eslint-disable-next-line no-shadow
+export enum DnsRecordTypeEnum {
+    A = 'A',
+    AAAA = 'AAAA',
+    CNAME = 'CNAME',
+    TXT = 'TXT',
+    SRV = 'SRV',
+    LOC = 'LOC',
+    MX = 'MX',
+    NS = 'NS',
+    SPF = 'SPF',
+    CERT = 'CERT',
+    DNSKEY = 'DNSKEY',
+    DS = 'DS',
+    NAPTR = 'NAPTR',
+    SMIMEA = 'SMIMEA',
+    SSHFP = 'SSHFP',
+    TLSA = 'TLSA',
+    URI = 'URI',
+}
